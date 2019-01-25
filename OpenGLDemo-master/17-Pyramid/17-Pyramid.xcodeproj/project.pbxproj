@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B4330E20B164DC00FC933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B4330D20B164DC00FC933E /* Assets.xcassets */; };
+		32B4331D20B1653000FC933E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B4331C20B1653000FC933E /* OpenGL.framework */; };
+		32B4331F20B1653700FC933E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B4331E20B1653700FC933E /* GLUT.framework */; };
+		32B4332220B1654900FC933E /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B4332020B1654900FC933E /* libGLEW.2.1.0.dylib */; };
+		32B4332320B1654900FC933E /* libgltools.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B4332120B1654900FC933E /* libgltools.dylib */; };
+		32B4332520B1656100FC933E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B4332420B1656100FC933E /* main.cpp */; };
+		32B4332720B1658600FC933E /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = 32B4332620B1658600FC933E /* stone.tga */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B4330720B164DC00FC933E /* 17-Pyramid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "17-Pyramid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B4330D20B164DC00FC933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B4331220B164DC00FC933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B4331520B164DC00FC933E /* _7_Pyramid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _7_Pyramid.entitlements; sourceTree = "<group>"; };
+		32B4331C20B1653000FC933E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		32B4331E20B1653700FC933E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		32B4332020B1654900FC933E /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		32B4332120B1654900FC933E /* libgltools.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libgltools.dylib; sourceTree = "<group>"; };
+		32B4332420B1656100FC933E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		32B4332620B1658600FC933E /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B4330420B164DC00FC933E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B4332220B1654900FC933E /* libGLEW.2.1.0.dylib in Frameworks */,
+				32B4332320B1654900FC933E /* libgltools.dylib in Frameworks */,
+				32B4331F20B1653700FC933E /* GLUT.framework in Frameworks */,
+				32B4331D20B1653000FC933E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B432FE20B164DC00FC933E = {
+			isa = PBXGroup;
+			children = (
+				32B4330920B164DC00FC933E /* 17-Pyramid */,
+				32B4330820B164DC00FC933E /* Products */,
+				32B4331B20B1653000FC933E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32B4330820B164DC00FC933E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B4330720B164DC00FC933E /* 17-Pyramid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B4330920B164DC00FC933E /* 17-Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				32B4330D20B164DC00FC933E /* Assets.xcassets */,
+				32B4331220B164DC00FC933E /* Info.plist */,
+				32B4331520B164DC00FC933E /* _7_Pyramid.entitlements */,
+				32B4332620B1658600FC933E /* stone.tga */,
+				32B4332420B1656100FC933E /* main.cpp */,
+			);
+			path = "17-Pyramid";
+			sourceTree = "<group>";
+		};
+		32B4331B20B1653000FC933E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B4332020B1654900FC933E /* libGLEW.2.1.0.dylib */,
+				32B4332120B1654900FC933E /* libgltools.dylib */,
+				32B4331E20B1653700FC933E /* GLUT.framework */,
+				32B4331C20B1653000FC933E /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B4330620B164DC00FC933E /* 17-Pyramid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B4331820B164DC00FC933E /* Build configuration list for PBXNativeTarget "17-Pyramid" */;
+			buildPhases = (
+				32B4330320B164DC00FC933E /* Sources */,
+				32B4330420B164DC00FC933E /* Frameworks */,
+				32B4330520B164DC00FC933E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17-Pyramid";
+			productName = "17-Pyramid";
+			productReference = 32B4330720B164DC00FC933E /* 17-Pyramid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B432FF20B164DC00FC933E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "luhe liu";
+				TargetAttributes = {
+					32B4330620B164DC00FC933E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32B4330220B164DC00FC933E /* Build configuration list for PBXProject "17-Pyramid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B432FE20B164DC00FC933E;
+			productRefGroup = 32B4330820B164DC00FC933E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B4330620B164DC00FC933E /* 17-Pyramid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B4330520B164DC00FC933E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B4332720B1658600FC933E /* stone.tga in Resources */,
+				32B4330E20B164DC00FC933E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B4330320B164DC00FC933E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B4332520B1656100FC933E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32B4331620B164DC00FC933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32B4331720B164DC00FC933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32B4331920B164DC00FC933E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "17-Pyramid/_7_Pyramid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RGQWE6DV47;
+				HEADER_SEARCH_PATHS = (
+					"$(glew_header)",
+					"$(gltools_header)",
+				);
+				INFOPLIST_FILE = "17-Pyramid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liutingluhe.learn.-7-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32B4331A20B164DC00FC933E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "17-Pyramid/_7_Pyramid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RGQWE6DV47;
+				HEADER_SEARCH_PATHS = (
+					"$(glew_header)",
+					"$(gltools_header)",
+				);
+				INFOPLIST_FILE = "17-Pyramid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liutingluhe.learn.-7-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B4330220B164DC00FC933E /* Build configuration list for PBXProject "17-Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B4331620B164DC00FC933E /* Debug */,
+				32B4331720B164DC00FC933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B4331820B164DC00FC933E /* Build configuration list for PBXNativeTarget "17-Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B4331920B164DC00FC933E /* Debug */,
+				32B4331A20B164DC00FC933E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B432FF20B164DC00FC933E /* Project object */;
+}
